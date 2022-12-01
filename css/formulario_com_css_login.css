@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+   text-decoration: none;
+}
+
+body{
+   background-image: url(https://wallpapers.com/images/high/orange-aesthetic-illustrated-flowers-8y1id0f5zglidozn.webp);
+   background-repeat: no-repeat;
+   background-size:cover ;
+   align-items: center;
+   justify-content: center;
+   height: 90vh;
+   margin: 0 auto;
+}
+
+header{
+   height: 24px; background-color: black;
+}
+
+#login{
+   display: flex;
+   background-color: wheat;
+   border-radius: 10px;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 5px 3px rgba(0, 0, 0, 0.159);
+   margin: 0 auto;
+   height: 500px;
+   width: 750px;
+   margin-top: 90px;
+}
+
+#login-mesa{
+   background-color: orange;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 400px;
+   width: 700px;
+   justify-content: center;
+   border-radius: 30px;
+}
+
+#login-titulo{
+   font-family: 'Pacifico' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 56px;
+}
+
+#login-formulario{
+   display: flex;
+   flex-direction: column;
+}
+
+#login-conta{
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+   margin: 3px;
+   width: fit-content;
+   padding: 10px 1px 1px 1px;
+}
+
+#login-botao-logar{
+   width: 50px;
+   background-color: wheat;
+   border: 1px solid rgb(82, 71, 49);
+   margin: 2px;
+   border-radius: 3px;
+   box-shadow: 2px 2px rgba(0, 0, 0, 0.092);
+}
+
+login-bota-logar:hover{
+   background-color: white;
+}
+   
